@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "74ea7ac6-1abb-4a9d-a2b6-ce57f9aeb591",
+		"name": "Telavi by zipcode 5day weather forecast",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://openweathermap.org/data/2.5/forecast?zip=2200&appid=b6907d289e10d714a6e88b30761fae22",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://openweathermap.org/data/2.5/forecast?zip=2200&appid=b6907d289e10d714a6e88b30761fae22",
+					"protocol": "https",
+					"host": [
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "zip",
+							"value": "2200"
+						},
+						{
+							"key": "appid",
+							"value": "b6907d289e10d714a6e88b30761fae22"
+						}
+					]
+				},
+				"description": "Telavi by zipcode 5day weather forecast"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "246ba70c-f71b-4a8a-aed4-73108e67c721",
+		"name": "Kuwait current weather 11/12/2019",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://openweathermap.org/data/2.5/weather?q=Kuwait&appid=b6907d289e10d714a6e88b30761fae22",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "a2376ceda076dee8dd021fb813d900a8",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://openweathermap.org/data/2.5/weather?q=Kuwait&appid=b6907d289e10d714a6e88b30761fae22",
+					"protocol": "https",
+					"host": [
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Kuwait"
+						},
+						{
+							"key": "appid",
+							"value": "b6907d289e10d714a6e88b30761fae22"
+						}
+					]
+				},
+				"description": "Kuwait current weather 11/12/2019"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
